@@ -87,8 +87,13 @@ ul.posts li {
     margin-right: 10px;
 }
 
-.centered {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.center-container {
+    text-align: center; /* Center the inline content horizontally */
+    margin-top: 50vh; /* Center vertically using margin */
+}
+
+.center-container img,
+.center-container .centered-text {
+    max-width: 50%; /* Adjust the maximum width of the image and text */
+    display: inline-block; /* Ensure inline-block behavior */
 }
