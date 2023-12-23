@@ -87,18 +87,8 @@ ul.posts li {
     margin-right: 10px;
 }
 
-.image-and-text {
-    display: flex;
+.centered {
     align-items: center;
-}
-
-.image-and-text img {
-    max-width: 50%; /* Adjust the maximum width of the image */
-    margin-left: 20px;
-}
-
-.image-and-text .text-container {
-    flex-grow: 1; /* Allows the text container to grow and take available space */
     text-align: center;
-    display: inline-block
+    justify-content: center;
 }
