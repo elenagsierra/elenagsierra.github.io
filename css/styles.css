@@ -90,4 +90,5 @@ ul.posts li {
 .center {
     width: xxxpx;
     margin: 0 auto;
+    text-align: center;
 }
