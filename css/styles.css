@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    width: 100%;
+    width: 90%;
 }
 
 nav ul, footer ul {
@@ -60,6 +60,7 @@ h2 {
     color: rgba(0, 93, 121, 0.800);
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
+    text-align: center;
 }
 
 p {
