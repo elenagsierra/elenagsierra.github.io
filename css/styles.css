@@ -87,8 +87,9 @@ ul.posts li {
     margin-right: 20px;
 }
 
-.center div {
-    width: xxxpx;
-    margin: 0 auto;
+.center {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
