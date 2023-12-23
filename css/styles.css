@@ -60,7 +60,7 @@ h2 {
     color: rgba(0, 93, 121, 0.500);
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
-    align-content: left;
+    text-align: left;
 }
 
 p {
