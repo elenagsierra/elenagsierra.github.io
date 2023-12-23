@@ -13,7 +13,7 @@ nav ul, footer ul {
 nav ul > li, footer ul > li {
     display: inline-block;
     margin-right: 20px;
-    position: relative; /* Added relative positioning for dropdown */
+    position: relative;
 }
 
 nav ul li a {
@@ -36,6 +36,12 @@ nav ul li ul.dropdown-content {
 
 nav ul li:hover ul.dropdown-content {
     display: block;
+}
+
+/* Adjusted styles for vertical stacking of dropdown items */
+nav ul li ul.dropdown-content li {
+    display: block;
+    margin: 0; /* Remove margin between dropdown items */
 }
 
 a {
