@@ -16,6 +16,9 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
+    children:
+      - title: "Science Communication"
+        url: "/portfolio/science_communication/"
         
   #- title: "Blog Posts"
   #  url: /year-archive/
