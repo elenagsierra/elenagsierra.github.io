@@ -315,37 +315,82 @@
    Navigation list
    ========================================================================== */
 
-.nav__list {
-  font-size: 1.25rem;
-
-  ul {
-    margin-bottom: 1em;
-  }
-
-  a {
-    display: block;
-    padding: 0.125em 0;
-    color: inherit;
-
-    &:hover {
-      text-decoration: underline;
+   .nav__list {
+    font-size: 1.25rem;
+  
+    ul {
+      margin-bottom: 1em;
+  
+      /* Hide nested dropdowns by default */
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid $border-color;
+        border-radius: $border-radius;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+  
+      li {
+        position: relative;
+        display: block;
+  
+        /* Show dropdown on hover */
+        &:hover .dropdown {
+          display: block;
+        }
+      }
+  
+      /* Styling for the dropdown items */
+      .dropdown li {
+        display: block;
+        padding: 0.5em;
+        white-space: nowrap;
+      }
     }
-  }
-
-  .active {
-    margin-left: -0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    color: #fff;
-    font-weight: bold;
-    background: $primary-color;
-    border-radius: $border-radius;
-
-    &:hover {
+  
+    a {
+      display: block;
+      padding: 0.125em 0;
+      color: inherit;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .active {
+      margin-left: -0.5em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
       color: #fff;
+      font-weight: bold;
+      background: $primary-color;
+      border-radius: $border-radius;
+  
+      &:hover {
+        color: #fff;
+      }
+    }
+  
+    /* Add a class for dropdown parent items */
+    li.has-dropdown > a {
+      cursor: pointer;
+      position: relative;
+  
+      &:after {
+        content: "\25BC"; /* Down arrow */
+        position: absolute;
+        right: 10px;
+        font-size: 0.75em;
+      }
     }
   }
-}
+  
 
 .nav__title {
   margin: 0;
