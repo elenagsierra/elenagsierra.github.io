@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Elena Sierra"
 title_separator          : "-"
 name                     : &name "Elena Sierra"
-description              : &description "AI for Sustainability and Social Good Researcher"
+description              : &description "AI for Sustainability and Social Good"
 url                      : https://elenagsierra.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "elenagsierra/elenagsierra.github.io"
@@ -27,7 +27,7 @@ author:
   bio              : "AI for Sustainability and Social Good Researcher"
   location         : "San Francisco Bay Area"
   employer         : "Stanford University"
-  uri              : # URL
+  uri              : "https://profiles.stanford.edu/elena-sierra"
   email            : "esierra@cs.stanford.edu" 
 
   # Academic websites
@@ -213,13 +213,13 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
