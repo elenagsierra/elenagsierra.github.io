@@ -52,7 +52,6 @@ footer {
     padding: 10px 0; /* Add some spacing */
     font-size: 0.8em; /* Slightly smaller text */
     color: #666; /* Subtle text color */
-    position: absolute; /* Fix position at bottom */
     width: 100%; /* Ensure it spans the full width */
     bottom: 0; /* Stick to the bottom */
     margin-top: auto;
