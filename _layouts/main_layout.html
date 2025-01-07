@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  {% include main_header.html %}
+  <div class="container">
+    <!-- Left Column: Constant -->
+    <div class="left-column">
+      <img src="profile.png" alt="Elena Sierra" class="profile-photo">
+      <h1>Elena Sierra</h1>
+      <p><strong>AI for Sustainability and Social Good</strong></p>
+      <ul class="contact-info">
+        <li>📍 San Francisco Bay Area</li>
+        <li><i class="fas fa-university"></i><a href="https://profiles.stanford.edu/elena-sierra">Stanford University</a></li>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:esierra@cs.stanford.edu">Email</a></li>
+        <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/elenagsierra">LinkedIn</a></li>
+        <li><i class="fab fa-orcid"></i> <a href="https://orcid.org/0009-0009-8975-6683">ORCID</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Column: Content Changes Per Page -->
+    <div class="right-column">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>
