@@ -3,7 +3,7 @@ body {
     width: 90%;
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1000px;
     padding: 0 20px; 
 }
 
@@ -168,9 +168,9 @@ ul.contact-info li {
 /* General Media Styles */
 .media {
     display: block;
-    max-width: 1000px; /* Set a maximum width for responsiveness */
+    max-width: 800px; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto;
+    margin-bottom: 20px;
 }
 
 /* Specific Adjustments */
@@ -183,7 +183,6 @@ ul.contact-info li {
     width: 70%;
     height: auto;
     max-height: 600px;
-    margin: 20px auto;
     display: block;
     border: none;
 }
