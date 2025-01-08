@@ -185,8 +185,7 @@ ul.contact-info li {
     max-height: 600px;
     display: block;
     border: none;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-    overflow-y: scroll;
+    overflow: auto;
 }
 
 .pdf-land {
@@ -217,4 +216,7 @@ ul.contact-info li {
 
 .right {
     float: right;
+}
+.center {
+    float: center;
 }
