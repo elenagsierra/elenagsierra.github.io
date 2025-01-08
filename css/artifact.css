@@ -7,31 +7,61 @@ body {
     padding: 0 20px; /* Optional: Add padding to body content */
 }
 
-/* Adjust the nav to align it to the left */
-nav {
-    width: 100%; /* Ensure it spans the entire width */
-    padding: 0;  /* Remove any default padding */
-    text-align: left; /* Align nav items to the left */
-}
-
-/* For the nav list */
-nav ul {
+nav ul, footer ul {
     display: flex;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0; /* No padding for the ul */
+    padding: 0;
     list-style: none;
     font-weight: bold;
 }
 
-nav ul li {
-    margin-right: 20px; /* Space between items */
+nav ul > li, footer ul > li {
+    margin-right: 20px;
+    position: relative;
 }
 
-/* Optional: Adjusting link styles */
 nav ul li a {
+    display: block;
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
+}
+
+nav ul li ul.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+nav ul li:hover ul.dropdown-content {
+    display: block;
+}
+
+nav ul li ul.dropdown-content li {
+    display: block;
+    margin: 0; 
+}
+
+footer {
+    border-top: 1px solid #d5d5d5; /* Gray line */
+    text-align: center; /* Center the content */
+    padding: 10px 0; /* Add some spacing */
+    font-size: 0.8em; /* Slightly smaller text */
+    color: #666; /* Subtle text color */
+    width: 100%; /* Ensure it spans the full width */
+    bottom: 0; /* Stick to the bottom */
+    margin-top: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1, h2 {
