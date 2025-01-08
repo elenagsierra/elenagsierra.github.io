@@ -111,7 +111,7 @@ p {
 
 /* Portrait PDFs */
 .pdf-port {
-    aspect-ratio: 9 / 16; /* Ensure appropriate ratio */
+    aspect-ratio: 3 / 4; /* Ensure appropriate ratio */
 }
 
 /* Images */
