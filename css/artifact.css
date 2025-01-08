@@ -120,11 +120,25 @@ p {
     height: auto; /* Maintain aspect ratio */
     max-height: 600px;
 }
-.container {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between; 
+
+.media-container {
+    display: flex;
+    flex-wrap: wrap;  /* Allows the text and media to wrap when space is limited */
+    gap: 20px;  /* Adds space between media and text */
+    align-items: flex-start;  /* Aligns content at the top */
 }
+
+.media-left-65 {
+    flex: 1 1 65%;  /* Flex-grow, flex-shrink, and basis for the left media */
+    max-width: 65%;  /* Ensure it doesn't exceed 45% of the container */
+}
+
+.wrap-text-30 {
+    flex: 1 1 30%;  /* Text takes up remaining space */
+    text-align: justify;  /* Optional, to justify the text */
+    margin-top: 0;
+}
+
 
 .left-65 {
     width: 65%;
