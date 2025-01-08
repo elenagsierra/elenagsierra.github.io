@@ -35,8 +35,6 @@ nav ul li a {
 h1, h2 {
     margin: 0;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
     max-width: 1000px;
 }
 
@@ -54,8 +52,6 @@ h2 {
 p {
     font-size: 1.2em;
     line-height: 1.5;
-    margin-left: 20px;
-    margin-right: 20px;
     color: #333;
     max-width: 1000px;
     text-align: left; /* Align text to the left */
