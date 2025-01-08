@@ -121,17 +121,15 @@ p {
     max-height: 600px;
 }
 .container {
-    display: flex;  /* Enables flexbox layout */
-    justify-content: space-between;  /* Space out the divs */
-    gap: 20px;  /* Add space between the columns */
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
 }
 
-.left-3 {
-    width: 30%;
-    padding-left: 20px;
-}
-
-.right-1 {
+.left-60 {
     width: 60%;
-    padding-left: 20px;
+}
+
+.right-30 {
+    width: 30%;
 }
