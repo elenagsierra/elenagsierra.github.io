@@ -121,9 +121,10 @@ p {
     max-height: 600px;
 }
 
-.media-container {
-    display: flex;
-    align-items: flex-start; 
+.container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between; 
 }
 
 .col-65 {
