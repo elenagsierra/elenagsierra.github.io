@@ -95,10 +95,8 @@ p {
 }
 
 .pdf-land, .pdf-port {
-    width: auto; /* Use the full width of the container */
-    max-width: 100%; /* Set a maximum width for larger screens */
-    height: 80vh; /* Dynamic height based on the viewport */
-    max-height: 90vh; /* Prevent overly large PDFs */
+    width: 100%; /* Use the full width of the container */
+    height: auto; /* Dynamic height based on the viewport */
     margin: 20px auto;
     display: block; /* Ensures block-level rendering */
     border: none; /* Remove any unwanted borders */
