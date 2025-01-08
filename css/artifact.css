@@ -98,7 +98,7 @@ p {
 .pdf-land, .pdf-port {
     width: 100%; /* Use the full width of the container */
     height: auto; /* Dynamic height based on the viewport */
-    max-height: 1200px;
+    max-height: 600px;
     margin: 20px auto;
     display: block; /* Ensures block-level rendering */
     border: none; /* Remove any unwanted borders */
@@ -118,5 +118,5 @@ p {
 .img {
     width: auto;
     height: auto; /* Maintain aspect ratio */
-    max-height: 800px;
+    max-height: 600px;
 }
