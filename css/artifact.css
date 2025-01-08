@@ -2,13 +2,11 @@
 body {
     width: 90%;
     min-height: 100%; /* Ensure body fills the page height */
-    margin: 0;
-    padding: 0;
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 20px; /* Add left/right padding */
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 nav ul, footer ul {
@@ -79,7 +77,7 @@ h2 {
 p {
     font-size: 1.2em;
     line-height: 1.5;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     color: #333;
@@ -96,9 +94,7 @@ p {
 .media {
     width: 100%;
     max-width: 800px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+    margin: 10px auto;
 }
 
 /* Specific Adjustments */
@@ -107,9 +103,11 @@ p {
 }
 
 .pdf-land, .pdf-port {
-    height: auto; /* Allow height to adjust dynamically */
-    max-height: 600px; /* Limit to prevent excessive scaling */
-    overflow-y: scroll; /* Ensure scrollability for larger content */
+    width: 100%; /* Inherits container width */
+    max-width: 800px; /* Ensures scaling is reasonable */
+    height: auto; /* Dynamically adjusts height */
+    max-height: 600px; /* Limits vertical size */
+    overflow-y: scroll;
 }
 
 /* Landscape PDFs */
@@ -124,6 +122,8 @@ p {
 
 /* Images */
 .img {
-    height: auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto; /* Maintain aspect ratio */
     max-height: 600px;
 }
