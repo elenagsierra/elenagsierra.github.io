@@ -6,6 +6,11 @@ body {
     padding: 0 20px; 
 }
 
+nav {
+    text-align: left;
+    width: 100%;
+}
+
 nav ul, footer ul {
     display: flex;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
