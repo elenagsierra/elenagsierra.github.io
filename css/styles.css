@@ -2,14 +2,13 @@
 body {
     width: 90%;
     min-height: 100%; /* Ensure body fills the page height */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px; 
 }
 
 nav ul, footer ul {
+    display: flex;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0;
     list-style: none;
@@ -17,7 +16,6 @@ nav ul, footer ul {
 }
 
 nav ul > li, footer ul > li {
-    display: inline-block;
     margin-right: 20px;
     position: relative;
 }
