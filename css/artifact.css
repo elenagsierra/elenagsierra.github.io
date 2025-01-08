@@ -106,7 +106,9 @@ p {
     max-width: 800px; /* Ensures scaling is reasonable */
     height: auto; /* Dynamically adjusts height */
     max-height: 600px; /* Limits vertical size */
-    overflow-y: scroll;
+    overflow-y: auto; /* Add scrolling for larger content */
+    margin: 20px auto; /* Centers the PDF on the page */
+    display: block; /* Ensures it behaves like a block element */
 }
 
 /* Landscape PDFs */
@@ -121,8 +123,6 @@ p {
 
 /* Images */
 .img {
-    width: 100%;
-    max-width: 800px;
     height: auto; /* Maintain aspect ratio */
     max-height: 600px;
 }
