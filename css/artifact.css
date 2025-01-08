@@ -141,3 +141,7 @@ p {
 .right-60 {
     width: 30%;
 }
+
+.wrap-text {
+    text-align: justify;
+}
