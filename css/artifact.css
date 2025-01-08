@@ -96,7 +96,7 @@ p {
 }
 
 .pdf-land, .pdf-port {
-    width: 90%; /* Use the full width of the container */
+    width: 80%; /* Use the full width of the container */
     height: auto; /* Dynamic height based on the viewport */
     max-height: 600px;
     margin: 20px auto;
