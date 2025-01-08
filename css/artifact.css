@@ -92,8 +92,10 @@ p {
     margin-top: 20px;
 }
 
-.responsive-video {
+.responsive {
     width: 100%; 
     height: auto;
-    max-width: 800px;   
+    max-width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
