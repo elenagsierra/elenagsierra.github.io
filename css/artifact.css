@@ -2,7 +2,7 @@
 body {
     width: 90%;
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 1200px;
     padding: 0 20px; 
 }
 
@@ -102,8 +102,8 @@ p {
 }
 
 .pdf-land, .pdf-port {
-    width: 100%; /* Use the full width of the container */
-    max-width: 900px; /* Set a maximum width for larger screens */
+    width: auto; /* Use the full width of the container */
+    max-width: 100%; /* Set a maximum width for larger screens */
     height: 80vh; /* Dynamic height based on the viewport */
     max-height: 90vh; /* Prevent overly large PDFs */
     margin: 20px auto; /* Center align the PDF */
@@ -121,7 +121,7 @@ p {
     aspect-ratio: 9 / 16; /* Ensure appropriate ratio */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .pdf-land, .pdf-port {
         aspect-ratio: auto; /* Let it adapt on smaller screens */
     }
