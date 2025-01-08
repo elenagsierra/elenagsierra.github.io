@@ -120,10 +120,20 @@ p {
     height: auto; /* Maintain aspect ratio */
     max-height: 600px;
 }
-.right {
-    width: 45%;
+.container {
+    display: flex;  /* Enables flexbox layout */
+    justify-content: space-between;  /* Space out the divs */
+    gap: 20px;  /* Add space between the columns */
+}
+
+.left, .right {
+    width: 45%;  /* Take up 45% of the container's width */
+}
+
+.left {
     padding-left: 20px;
 }
-.left {
-    width: 45%;
+
+.right {
+    padding-left: 20px;
 }
