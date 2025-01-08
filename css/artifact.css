@@ -80,20 +80,13 @@ p {
     max-width: 1000px;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    text-align: center;
-}
 /* General Media Styles */
 .media {
     display: block;
     width: 100%; /* Allow it to scale to container width */
     max-width: 900px; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
-    margin: 20px auto; /* Center the media */
+    margin: 20px auto;
 }
 
 /* Specific Adjustments */
@@ -106,7 +99,7 @@ p {
     max-width: 100%; /* Set a maximum width for larger screens */
     height: 80vh; /* Dynamic height based on the viewport */
     max-height: 90vh; /* Prevent overly large PDFs */
-    margin: 20px auto; /* Center align the PDF */
+    margin: 20px auto;
     display: block; /* Ensures block-level rendering */
     border: none; /* Remove any unwanted borders */
 }
@@ -119,12 +112,6 @@ p {
 /* Portrait PDFs */
 .pdf-port {
     aspect-ratio: 9 / 16; /* Ensure appropriate ratio */
-}
-
-@media (max-width: 900px) {
-    .pdf-land, .pdf-port {
-        aspect-ratio: auto; /* Let it adapt on smaller screens */
-    }
 }
 
 /* Images */
