@@ -96,6 +96,7 @@ p {
 }
 
 .pdf-land, .pdf-port {
+    width: 70%;
     height: auto; /* Dynamic height based on the viewport */
     max-height: 600px;
     margin: 20px auto;
@@ -105,13 +106,11 @@ p {
 
 /* Landscape PDFs */
 .pdf-land {
-    width: 70%; /* Use the full width of the container */
     aspect-ratio: 16 / 9; /* Ensure appropriate ratio */
 }
 
 /* Portrait PDFs */
 .pdf-port {
-    width: 40%; /* Use the full width of the container */
     aspect-ratio: 3 / 4; /* Ensure appropriate ratio */
 }
 
