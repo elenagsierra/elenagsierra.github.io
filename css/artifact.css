@@ -1,7 +1,9 @@
 /* Remove centering for the body and adjust width */
 body {
-    width: 100%;  /* Ensure the body spans the full width */
+    width: 90%;  /* Ensure the body spans the full width */
+    min-height: 100%;
     margin: 0;    /* Remove any auto margin */
+    max-width: 1500px;
     padding: 0 20px; /* Optional: Add padding to body content */
 }
 
@@ -35,7 +37,6 @@ nav ul li a {
 h1, h2 {
     margin: 0;
     text-align: center;
-    max-width: 1000px;
 }
 
 h1 {
@@ -53,7 +54,6 @@ p {
     font-size: 1.2em;
     line-height: 1.5;
     color: #333;
-    max-width: 1000px;
     text-align: left; /* Align text to the left */
 }
 
