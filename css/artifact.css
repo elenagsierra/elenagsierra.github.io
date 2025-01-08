@@ -1,60 +1,35 @@
-/* Original Navigation and Footer Styles */
+/* Remove centering for the body and adjust width */
 body {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 20px; 
+    width: 100%;  /* Ensure the body spans the full width */
+    margin: 0;    /* Remove any auto margin */
+    padding: 0 20px; /* Optional: Add padding to body content */
 }
 
+/* Adjust the nav to align it to the left */
 nav {
-    text-align: left;
-    width: 100%;
+    width: 100%; /* Ensure it spans the entire width */
+    padding: 0;  /* Remove any default padding */
+    text-align: left; /* Align nav items to the left */
 }
 
-nav ul, footer ul {
+/* For the nav list */
+nav ul {
     display: flex;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0;
+    padding: 0; /* No padding for the ul */
     list-style: none;
     font-weight: bold;
 }
 
-nav ul > li, footer ul > li {
-    margin-right: 20px;
-    position: relative;
+nav ul li {
+    margin-right: 20px; /* Space between items */
 }
 
+/* Optional: Adjusting link styles */
 nav ul li a {
-    display: block;
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
-}
-
-nav ul li ul.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-nav ul li:hover ul.dropdown-content {
-    display: block;
-}
-
-nav ul li ul.dropdown-content li {
-    display: block;
-    margin: 0; 
-}
-
-a {
-    text-decoration: none;
-    color: #999;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 h1, h2 {
@@ -83,7 +58,7 @@ p {
     margin-right: 20px;
     color: #333;
     max-width: 1000px;
-    text-align: left;
+    text-align: left; /* Align text to the left */
 }
 
 /* General Media Styles */
@@ -102,42 +77,39 @@ p {
 
 .pdf-land, .pdf-port {
     width: 70%;
-    height: auto; /* Dynamic height based on the viewport */
+    height: auto;
     max-height: 600px;
     margin: 20px auto;
-    display: block; /* Ensures block-level rendering */
-    border: none; /* Remove any unwanted borders */
+    display: block;
+    border: none;
 }
 
-/* Landscape PDFs */
 .pdf-land {
-    aspect-ratio: 16 / 9; /* Ensure appropriate ratio */
+    aspect-ratio: 16 / 9;
 }
 
-/* Portrait PDFs */
 .pdf-port {
-    aspect-ratio: 3 / 4; /* Ensure appropriate ratio */
+    aspect-ratio: 3 / 4;
 }
 
-/* Images */
 .img {
     width: auto;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
     max-height: 600px;
 }
 
 .container {
-    display: flex; 
+    display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .col-65 {
-    width: 65%; 
+    width: 65%;
 }
 
 .col-30 {
-    width: 30%; 
+    width: 30%;
 }
 
 .left {
