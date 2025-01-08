@@ -126,14 +126,12 @@ p {
     gap: 20px;  /* Add space between the columns */
 }
 
-.left, .right {
-    width: 45%;  /* Take up 45% of the container's width */
-}
-
-.left {
+.left-3 {
+    width: 75%;
     padding-left: 20px;
 }
 
-.right {
+.right-1 {
+    width: 25%;
     padding-left: 20px;
 }
