@@ -134,3 +134,11 @@ p {
 .col-30 {
     width: 30%; 
 }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
