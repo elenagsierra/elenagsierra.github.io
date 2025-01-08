@@ -75,7 +75,7 @@ h1 {
 
 h2 {
     font-size: 1.8em;
-    color: rgba(0, 93, 121, 0.500);
+    color: #333;
     margin-bottom: 15px;
 }
 
@@ -164,4 +164,56 @@ ul.contact-info {
 ul.contact-info li {
     margin: 10px 0;
     font-size: 1.2em; /* Adjust size */
+}
+/* General Media Styles */
+.media {
+    display: block;
+    max-width: 1000px; /* Set a maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto;
+}
+
+/* Specific Adjustments */
+.vid {
+    width: 100%;
+    height: auto;
+}
+
+.pdf-land, .pdf-port {
+    width: 70%;
+    height: auto;
+    max-height: 600px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+}
+
+.pdf-land {
+    aspect-ratio: 16 / 9;
+}
+
+.pdf-port {
+    aspect-ratio: 3 / 4;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    max-height: 600px;
+}
+
+.col-65 {
+    width: 65%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
