@@ -4,7 +4,7 @@ body {
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 nav ul, footer ul {
@@ -64,25 +64,21 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2 {
-    margin: 0;
-}
-
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #333;
     padding: 10px;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #333;
     padding: 10px;
 }
 
 p {
     font-size: 1.2em;
-    line-height: 1.5;
+    line-height: 1.15;
     padding: 10px;
     color: #333;
 }
