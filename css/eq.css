@@ -1,10 +1,14 @@
-/* Remove centering for the body and adjust width */
+/* Original Navigation and Footer Styles */
 body {
-    width: 90%;  /* Ensure the body spans the full width */
-    min-height: 100%;
-    margin: 0;    /* Remove any auto margin */
-    max-width: 1500px;
-    padding: 0 20px; /* Optional: Add padding to body content */
+    width: 90%;
+    min-height: 100%; /* Ensure body fills the page height */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px; 
+    background-image: url('../artifacts/eq_b.png'); /* Replace with your image path */
+    background-size: 50px 50px;
+    background-repeat: repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the image stationary while scrolling */
 }
 
 nav ul, footer ul {
@@ -13,6 +17,7 @@ nav ul, footer ul {
     padding: 0;
     list-style: none;
     font-weight: bold;
+    background-color: #ffffff;
 }
 
 nav ul > li, footer ul > li {
@@ -30,7 +35,7 @@ nav ul li a {
 nav ul li ul.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
@@ -66,12 +71,13 @@ a:hover {
 
 h1, h2 {
     margin: 0;
-    text-align: center;
 }
 
 h1 {
     font-size: 2em;
-    color: #333;
+    color: #f9f9f9;
+    background-color: rgba(1,70,143,1);
+    padding: 10px;
 }
 
 h2 {
@@ -83,61 +89,8 @@ h2 {
 p {
     font-size: 1.2em;
     line-height: 1.5;
+    margin-top: 20px;
     color: #333;
-    text-align: left; /* Align text to the left */
-}
-
-/* General Media Styles */
-.media {
-    display: block;
-    max-width: 1000px; /* Set a maximum width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px auto;
-}
-
-/* Specific Adjustments */
-.vid {
-    width: 100%;
-    height: auto;
-}
-
-.pdf-land, .pdf-port {
-    width: 70%;
-    height: auto;
-    max-height: 600px;
-    margin: 20px auto;
-    display: block;
-    border: none;
-}
-
-.pdf-land {
-    aspect-ratio: 16 / 9;
-}
-
-.pdf-port {
-    aspect-ratio: 3 / 4;
-}
-
-.img {
-    width: auto;
-    height: auto;
-    max-height: 600px;
-}
-
-.col-65 {
-    width: 65%;
-}
-
-.col-30 {
-    width: 30%;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
 }
 
 .container {
@@ -218,4 +171,67 @@ ul.contact-info {
 ul.contact-info li {
     margin: 10px 0;
     font-size: 1.2em; /* Adjust size */
+}
+.card {
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+/* General Media Styles */
+.media {
+    display: block;
+    max-width: 800px; /* Set a maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+}
+
+/* Specific Adjustments */
+.vid {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.pdf-land, .pdf-port {
+    width: 70%;
+    height: auto;
+    max-height: 600px;
+    display: block;
+    border: none;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.pdf-land {
+    aspect-ratio: 16 / 9;
+}
+
+.pdf-port {
+    aspect-ratio: 3 / 4;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+.col-65 {
+    width: 65%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.center {
+    float: center;
 }
