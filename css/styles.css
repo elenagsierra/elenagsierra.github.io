@@ -19,6 +19,7 @@ nav ul, footer ul {
     font-weight: bold;
     background-color: #ffffff;
     justify-content: space-between;
+    font-size: 1.8em;
 }
 
 nav ul > li, footer ul > li {
@@ -31,7 +32,6 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
-    font-size: large;
 }
 
 nav ul li ul.dropdown-content {
@@ -177,7 +177,7 @@ ul.contact-info li {
 .card {
     padding: 10px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 /* General Media Styles */
 .media {
