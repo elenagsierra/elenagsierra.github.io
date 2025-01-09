@@ -69,15 +69,11 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2 {
-    margin: 0;
-}
-
 h1 {
     font-size: 2em;
     color: #f9f9f9;
     background-color: rgba(1,70,143,1);
-    padding: 10px;
+    margin: 0 auto;
 }
 
 h2 {
