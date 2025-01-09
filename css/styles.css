@@ -17,6 +17,7 @@ nav ul, footer ul {
     padding: 0;
     list-style: none;
     font-weight: bold;
+    background-color: #f9f9f9;
 }
 
 nav ul > li, footer ul > li {
@@ -74,7 +75,8 @@ h1, h2 {
 
 h1 {
     font-size: 2em;
-    color: #333;
+    color: #f9f9f9;
+    background-color: rgba(1,70,143,1);
 }
 
 h2 {
@@ -172,10 +174,8 @@ ul.contact-info li {
     font-size: 1.2em; /* Adjust size */
 }
 .card {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    margin: 20px 0;
-    transition: transform 0.2s;
+    padding: 10px;
+    margin: 0 auto;
 }
 /* General Media Styles */
 .media {
