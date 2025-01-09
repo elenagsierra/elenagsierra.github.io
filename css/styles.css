@@ -5,22 +5,24 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 20px; 
+}
+
+.eq, .ed, .env {
+    background-size: cover;
+	background-repeat: repeat;
 	background-attachment: fixed;
 }
 
 .eq {
 	background-image: url(artifacts/eq_b.png);
-	background-repeat: repeat;
 }
 
 .ed {
 	background-image: url(artifacts/ed_b.png);
-	background-repeat: repeat;
 }
 
 .env {
 	background-image: url(artifacts/env_b.png);
-	background-repeat: repeat;
 }
 
 nav ul, footer ul {
