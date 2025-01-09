@@ -6,7 +6,7 @@ body {
     max-width: 1200px;
     padding: 0 20px; 
     background-image: url('../artifacts/eq_b.png'); /* Replace with your image path */
-    background-size: 40px 40px;
+    background-size: 200px 200px;
     background-repeat: repeat; /* Prevents tiling */
     background-attachment: fixed; /* Keeps the image stationary while scrolling */
 }
