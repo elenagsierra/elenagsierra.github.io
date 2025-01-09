@@ -186,6 +186,7 @@ ul.contact-info li {
     display: block;
     border: none;
     overflow: auto;
+    margin: 0 auto;
 }
 
 .pdf-land {
@@ -219,5 +220,4 @@ ul.contact-info li {
 }
 .center {
     float: center;
-    text-align: center;
 }
