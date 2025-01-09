@@ -221,7 +221,12 @@ ul.contact-info li {
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px;
     border-radius: 10px; /* Optional: Round corners */
-    box-shadow: 0 4px 8px rgba(1,70,143,0.2);
+    box-shadow: 0 6px 12px rgba(1,70,143,0.2);
+}
+.media:hover {
+    box-shadow: 0 8px 16px rgba(1,70,143,0.2); /* Increase shadow intensity */
+    transform: translateY(-2px); /* Slightly "lift" the media on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
 /* Specific Adjustments */
@@ -274,4 +279,5 @@ ul.contact-info li {
 .center {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
