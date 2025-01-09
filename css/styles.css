@@ -31,6 +31,7 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
+    font-size: large;
 }
 
 nav ul li ul.dropdown-content {
