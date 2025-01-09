@@ -147,6 +147,7 @@ p {
     max-width: 200px;
     height: auto;
     border-radius: 50%;
+    display: block;
 }
 
 .left-column h1 {
