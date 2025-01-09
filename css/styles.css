@@ -186,11 +186,7 @@ ul.contact-info li {
     display: block;
     border: none;
     overflow: auto;
-}
-
-iframe {
-    display: block; /* Ensures the iframe is treated as a block-level element */
-    margin: 0 auto; /* Centers it horizontally */
+    margin: 0 auto;
 }
 
 .pdf-land {
