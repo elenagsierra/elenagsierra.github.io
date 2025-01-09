@@ -94,7 +94,7 @@ h1 {
 h1:before, h1:after {
     content: "";
     position: absolute;
-    width: 70px;
+    width: 50px;
     height: 3px;
     background: rgba(1,70,143,1);
     top: 50%;
@@ -102,11 +102,11 @@ h1:before, h1:after {
 }
 
 h1:before {
-    left: -80px;
+    left: -10px;
 }
 
 h1:after {
-    right: -80px;
+    right: -10px;
 }
 
 @keyframes fadeIn {
