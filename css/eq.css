@@ -147,8 +147,6 @@ p {
     max-width: 200px;
     height: auto;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
 }
 
 .left-column h1 {
@@ -271,5 +269,6 @@ ul.contact-info li {
     float: right;
 }
 .center {
-    float: center;
+    display: flex;
+    justify-content: center;
 }
