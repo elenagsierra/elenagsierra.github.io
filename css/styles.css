@@ -5,6 +5,11 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 20px; 
+
+    background-image: url('../artifacts/eq_b.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-repeat: repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps the image stationary while scrolling */
 }
 
 nav ul, footer ul {
@@ -166,6 +171,17 @@ ul.contact-info {
 ul.contact-info li {
     margin: 10px 0;
     font-size: 1.2em; /* Adjust size */
+}
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
 }
 /* General Media Styles */
 .media {
