@@ -177,6 +177,7 @@ ul.contact-info li {
 .vid {
     width: 70%;
     height: auto;
+    margin: 0 auto;
 }
 
 .pdf-land, .pdf-port {
@@ -201,6 +202,7 @@ ul.contact-info li {
     width: auto;
     height: auto;
     max-height: 600px;
+    margin: 0 auto;
 }
 
 .col-65 {
