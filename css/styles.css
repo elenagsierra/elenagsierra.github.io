@@ -219,4 +219,5 @@ ul.contact-info li {
 }
 .center {
     float: center;
+    text-align: center;
 }
