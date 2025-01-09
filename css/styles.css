@@ -5,6 +5,9 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 20px; 
+}
+
+main-eq {
     background-image: url('../artifacts/eq_b.png'); /* Replace with your image path */
     background-size: 50px 50px;
     background-repeat: repeat; /* Prevents tiling */
