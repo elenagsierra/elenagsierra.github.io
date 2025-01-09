@@ -5,9 +5,6 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 20px; 
-}
-
-main {
     background-image: url('../artifacts/eq_b.png'); /* Replace with your image path */
     background-size: 50px 50px;
     background-repeat: repeat; /* Prevents tiling */
@@ -21,6 +18,7 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     background-color: #ffffff;
+    justify-content: space-between;
 }
 
 nav ul > li, footer ul > li {
