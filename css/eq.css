@@ -48,7 +48,7 @@ nav ul li ul.dropdown-content li {
 footer {
     border-top: 1px solid #d5d5d5; /* Gray line */
     text-align: center; /* Center the content */
-    padding: 10px 0; /* Add some spacing */
+    padding: 10px; /* Add some spacing */
     font-size: 0.8em; /* Slightly smaller text */
     color: #666; /* Subtle text color */
     width: 100%; /* Ensure it spans the full width */
@@ -209,16 +209,19 @@ ul.contact-info li {
     font-size: 1.2em; /* Adjust size */
 }
 .card {
-    padding: 10px;
+    padding-top: 10px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.975);
+    animation: fadeIn 1s ease-in-out;
 }
 /* General Media Styles */
 .media {
     display: block;
     max-width: 800px; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Optional: Round corners */
+    box-shadow: 0 4px 8px rgba(1,70,143,0.2);
 }
 
 /* Specific Adjustments */
