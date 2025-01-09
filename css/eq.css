@@ -215,7 +215,7 @@ ul.contact-info li {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.975);
     display: flex;
-    align-items: center; /* Center items horizontally */
+    justify-content: center;
 }
 /* General Media Styles */
 .media {
