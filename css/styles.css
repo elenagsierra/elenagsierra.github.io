@@ -7,24 +7,6 @@ body {
     padding: 0 20px; 
 }
 
-.eq, .ed, .env {
-    background-size: cover;
-	background-repeat: repeat;
-	background-attachment: fixed;
-}
-
-.eq {
-	background-image: url(artifacts/eq_b.png);
-}
-
-.ed {
-	background-image: url(artifacts/ed_b.png);
-}
-
-.env {
-	background-image: url(artifacts/env_b.png);
-}
-
 nav ul, footer ul {
     display: flex;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
