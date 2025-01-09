@@ -96,7 +96,7 @@ h1:before, h1:after {
     position: absolute;
     width: 70px;
     height: 3px;
-    background: #00c6ff;
+    background: rgba(1,70,143,1);
     top: 50%;
     transform: translateY(-50%);
 }
