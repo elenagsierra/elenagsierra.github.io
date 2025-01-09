@@ -70,7 +70,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #f9f9f9;
     background-color: rgba(1,70,143,1);
     padding: 10px;
@@ -78,14 +78,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #333;
     padding: 10px;
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1em;
+    line-height: 1.15;
     padding: 10px;
     color: #333;
 }
