@@ -282,10 +282,9 @@ ul.contact-info li {
 }
 
 .dark-back {
-    width: 100vw; /* Full width of the viewport */
-    margin-left: calc(-50vw + 50%);
     background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
     box-sizing: border-box;
+    border-radius: 10px; /* Optional: Round corners */
 }
 
 .dark-back p, .dark-back h2 {
