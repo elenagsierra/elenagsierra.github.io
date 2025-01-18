@@ -4,6 +4,7 @@ body {
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
     padding: 0 20px; 
+    max-width: 1200px;
 }
 
 nav ul, footer ul {
@@ -212,7 +213,6 @@ ul.contact-info li {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.975);
     animation: fadeIn 1s ease-in-out;
-    max-width: 1200px;
 }
 /* General Media Styles */
 .media {
@@ -284,10 +284,11 @@ ul.contact-info li {
 
 .dark-back {
     width: 100%;
+    max-width: none;
     background-color: rgba(1,70,143,1);
 }
 
-.dark-back p {
+.dark-back h2, p {
     color: #ffffff;
 }
 
