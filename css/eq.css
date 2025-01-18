@@ -285,7 +285,7 @@ ul.contact-info li {
     background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
 }
 
-.dark-back h2, p {
+.dark-back h2 p {
     color: #ffffff;
 }
 
