@@ -283,17 +283,10 @@ ul.contact-info li {
 
 .dark-back {
     background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
-}
-
-.dark-back h2 p {
     color: #ffffff;
 }
 
-.left-half {
-    width: 40%;
-}
-
-.right-half {
-    width: 40%;
-    padding-left: 20px;
+.left-half, .right-half {
+    flex: 1 1 45%; /* Allows flexibility and size for columns */
+    margin: 0 10px; /* Adds space between the columns */
 }
