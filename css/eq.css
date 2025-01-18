@@ -1,10 +1,10 @@
 /* Original Navigation and Footer Styles */
 body {
-    width: 100%;
+    width: 90%;
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
     padding: 0 50px;
-    /* max-width: 1200px; */
+    max-width: 1500px;
 }
 
 nav ul, footer ul {
