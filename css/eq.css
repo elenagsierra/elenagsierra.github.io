@@ -3,7 +3,7 @@ body {
     width: 100%;
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
-    /* padding: 0 20px; */
+    padding: 0 20px;
     /* max-width: 1200px; */
 }
 
