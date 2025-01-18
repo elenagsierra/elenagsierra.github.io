@@ -1,10 +1,8 @@
 /* Original Navigation and Footer Styles */
 body {
-    width: 90%;
+    width: 100%;
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
-    padding: 0 50px;
-    max-width: 1500px;
 }
 
 nav ul, footer ul {
@@ -130,10 +128,13 @@ p {
 }
 
 .container {
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+    padding: 0 50px;
+    max-width: 1500px;
 }
 
 /* Left Column */
@@ -283,8 +284,6 @@ ul.contact-info li {
 
 .dark-back {
     background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
-    box-sizing: border-box;
-    border-radius: 10px; /* Optional: Round corners */
 }
 
 .dark-back p, .dark-back h2 {
