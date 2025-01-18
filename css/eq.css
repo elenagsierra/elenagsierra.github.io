@@ -9,7 +9,7 @@ body {
 
 nav ul, footer ul {
     display: flex;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     list-style: none;
     font-weight: bold;
@@ -65,10 +65,10 @@ a:hover {
     text-decoration: underline;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
 
 h1, h2, h3, p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -282,8 +282,7 @@ ul.contact-info li {
 }
 
 .dark-back {
-    max-width: none !important;
-    background-color: rgba(1,70,143,1);
+    background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
 }
 
 .dark-back h2, p {
