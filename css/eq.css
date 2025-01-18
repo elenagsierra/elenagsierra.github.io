@@ -282,8 +282,8 @@ ul.contact-info li {
 }
 
 .dark-back {
+    width: 100vw;
     background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
-    padding: 0 50px; /* Adds side padding to align with the rest of the site */
     box-sizing: border-box;
 }
 
