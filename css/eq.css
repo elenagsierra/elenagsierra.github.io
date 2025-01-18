@@ -234,13 +234,14 @@ ul.contact-info li {
 }
 
 .pdf-land, .pdf-port {
-    width: 70%;
+    width: 90%;
     height: auto;
     max-height: 600px;
     display: block;
     border: none;
     overflow: auto;
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 .pdf-land {
