@@ -282,7 +282,8 @@ ul.contact-info li {
 }
 
 .dark-back {
-    width: 100vw;
+    width: 100%;
+    padding: 0 -50px;
     background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
     box-sizing: border-box;
 }
