@@ -35,7 +35,7 @@ nav ul {
 }
 
 .blue {
-    background: linear-gradient(to right, rgba(1,70,143,1), rgba(1,70,143,.5));
+    background: linear-gradient(rgba(1,70,143,1), rgba(1,70,143,.75));
     color: #f4f4f4;
 }
 
