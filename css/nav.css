@@ -1,0 +1,98 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between main menu items */
+}
+
+.menu li {
+    position: relative; /* Important for dropdown positioning */
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.menu > li > a:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+}
+
+.submenu {
+    position: absolute;
+    top: 100%; /* Place it below the main item */
+    left: 0;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px 0;
+    display: none; /* Hide by default */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     /* Ensure it appears above other content */
+}
+
+.menu li:hover .submenu {
+    display: block; /* Show on hover */
+}
+
+.submenu li {
+    padding: 5px 20px; /* Padding for submenu items */
+}
+
+.submenu li a {
+    color: #333; /* Color for submenu links */
+}
+
+.submenu li a:hover {
+    background-color: #f0f0f0; /* Background on hover in submenu */
+}
+
+/* Responsive Menu */
+.menu-btn {
+    display: none; /* Hide checkbox for the main state */
+}
+
+.menu-icon {
+    display: none; /* Hide the menu icon for small screens */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Hide menu on mobile */
+        flex-direction: column; /* Stack items vertically */
+    }
+    
+    .menu-btn:checked + .menu-icon + .menu {
+        display: flex; /* Show menu when checkbox is checked */
+    }
+    
+    .menu-icon {
+        display: block; /* Show the menu icon on mobile */
+        cursor: pointer; /* Change cursor to pointer */
+    }
+}
