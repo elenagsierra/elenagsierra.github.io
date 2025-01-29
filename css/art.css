@@ -3,6 +3,7 @@ body {
     width: 100%;
     min-height: 100%; /* Ensure body fills the page height */
     margin: 0 auto;
+    background-color: #f4f4f4;
 }
 
 nav ul, footer ul {
@@ -84,7 +85,7 @@ h1 {
     position: relative;
     padding: 20px 0;
 }
-
+/*
 h1:before, h1:after {
     content: "";
     position: absolute;
@@ -102,7 +103,7 @@ h1:before {
 h1:after {
     right: -10px;
 }
-
+*/
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -263,7 +264,6 @@ ul.contact-info li {
 .white, .blue, .pink, .green {
     padding: 2rem;
     margin: 2rem 0;
-    border-radius: 10px;
 }
 
 .white {
@@ -271,7 +271,7 @@ ul.contact-info li {
 }
 
 .blue {
-    background: linear-gradient(rgba(1,70,143,1), rgba(1,70,143,.9));
+    background: linear-gradient(rgba(1,70,143,1), rgba(1,70,143,.8));
     color: #f4f4f4;
 }
 
