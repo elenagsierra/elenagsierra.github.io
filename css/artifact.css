@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     color: #333;
 }
 /*
@@ -35,7 +35,8 @@ nav ul {
 }
 
 .blue {
-    background: linear-gradient(to right, rgba(1,70,143,1), #f4f4f4);
+    background: linear-gradient(to right, rgba(1,70,143,1), rgba(1,70,143,.5));
+    color: #f4f4f4;
 }
 
 iframe {
@@ -72,8 +73,10 @@ footer {
     order: 2; /* places text second */
 }
 
+/*
 @media (max-width: 768px) {
     .section {
-        flex-direction: column; /* Stack vertically when on smaller screens */
+        flex-direction: column;
     }
 }
+    */

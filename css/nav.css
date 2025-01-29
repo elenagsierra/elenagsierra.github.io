@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-color: #fff;
+    background-color: #f4f4f4;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,7 +47,7 @@ body {
     position: absolute;
     top: 100%; /* Place it below the main item */
     left: 0;
-    background-color: #fff;
+    background-color: #f4f4f4;
     list-style: none;
     padding: 10px 0;
     display: none; /* Hide by default */
