@@ -126,14 +126,14 @@ p {
     padding: 10px;
     color: #333;
 }
-/*
+
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 20px;
 }
-*/
+
 /* Left Column */
 .left-column {
     width: 30%;
