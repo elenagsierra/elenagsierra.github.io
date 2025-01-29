@@ -279,7 +279,7 @@ ul.contact-info li {
 
 iframe {
     width: 100%;
-    height: auto;
+    min-height: 400px;
     border: none;
 }
 
