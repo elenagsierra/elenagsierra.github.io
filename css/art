@@ -126,14 +126,14 @@ p {
     padding: 10px;
     color: #333;
 }
-
+/*
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 20px;
 }
-
+*/
 /* Left Column */
 .left-column {
     width: 30%;
@@ -211,21 +211,21 @@ ul.contact-info li {
     margin: 0 auto;
     animation: fadeIn 1s ease-in-out;
 }
-/* General Media Styles */
+/*
 .media {
     display: block;
-    max-width: 800px; /* Set a maximum width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 800px; 
+    height: auto; 
     margin-bottom: 10px;
-    border-radius: 10px; /* Optional: Round corners */
+    border-radius: 10px; 
     box-shadow: 0 6px 12px rgba(1,70,143,0.2);
 }
 .media:hover {
-    box-shadow: 0 8px 16px rgba(0, 27, 57, 0.2); /* Increase shadow intensity */
-    transform: translateY(-2px); /* Slightly "lift" the media on hover */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 0 8px 16px rgba(0, 27, 57, 0.2); 
+    transform: translateY(-2px); 
+    transition: all 0.3s ease; 
 }
-
+*/
 /* Specific Adjustments */
 .vid {
     width: 70%;
@@ -260,37 +260,45 @@ ul.contact-info li {
     margin: 0 auto;
 }
 
-.col-65 {
-    width: 65%;
+.white, .blue, .pink, .green {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 10px;
 }
 
-.col-30 {
-    width: 30%;
+.white {
+    background-color: #f4f4f4;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-.center {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.dark-back {
-    background-image: linear-gradient(to top, rgb(1, 60, 124), rgba(1,70,143,1));
-}
-
-.dark-back p, .dark-back h2 {
+.blue {
+    background: linear-gradient(rgba(1,70,143,1), rgba(1,70,143,.9));
     color: #f4f4f4;
 }
 
-.left-half, .right-half {
-    width: 45%;
-    flex: 1 1 45%; /* Allows flexibility and size for columns */
-    margin: 0 10px; /* Adds space between the columns */
+.section {
+    display: flex;
+    margin: 20px 0; /* Add some spacing */
+}
+
+.media {
+    flex: 1; /* Take up equal space */
+}
+
+.text {
+    flex: 1; /* Take up equal space */
+    padding: 20px; /* Optional padding */
+}
+
+.left {
+    order: 1; /* places media first */
+}
+
+.right {
+    order: 2; /* places text second */
+}
+
+@media (max-width: 500px) {
+    .section {
+        flex-direction: column;
+    }
 }
