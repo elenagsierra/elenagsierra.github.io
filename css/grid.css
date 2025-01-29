@@ -1,0 +1,539 @@
+/* Standard view setup */
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Container and 1000px Constriction setup */
+
+div.container {
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#constriction{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+/* Main project boxes preparation */
+
+div.text-box {
+    margin: 20px;
+}
+
+div.split {
+    height: 750px;
+    margin: 20px;
+}
+
+/* Project boxes setup */
+
+div.project {
+    position: relative;
+    height: 100%;
+    border-radius: 25px;
+    overflow-wrap: normal;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+div.project-full {
+    margin: 0 20px;
+    height: 500px;
+}
+
+div.project-half {
+    width: 49%;
+}
+
+div.project-1third {
+    width: 39%;
+}
+
+div.project-2third {
+    width: 59%;
+}
+
+/* Project icon */
+
+.project-icon {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    position: absolute;
+}
+
+/* Setting up the orientation of project boxes */
+
+#kyber, #lighter, #hydratr{
+    float: left;
+}
+
+#slight-work, #matter, #suggestion {
+    float: right;
+}
+
+/* Colors of project boxes */
+
+#stanny {
+    background-image: linear-gradient(to top, #DC143C, #DC4F3C);
+    background-color: #DC143C;
+}
+
+#kyber {
+    background-color: #7C75E3;
+}
+
+#slight-work {
+    background-image: linear-gradient(to top, #2549EA, #3C5CEC);
+    background-color: #3251EB;
+}
+
+#lighter {
+    background-image: linear-gradient(to top right, #FF0014, #5076DF);
+    background-color: #BE2B5F;
+}
+
+#matter {
+    background-image: linear-gradient(to top, #8000FF, #B300FF);
+    background-color: #8D4FFF;
+}
+
+#movie-master {
+    background-image: linear-gradient(to top, #B31919, #E12A27);
+    background-color: #E12A27;
+}
+
+#hydratr {
+    background-color: #0075FF;
+}
+
+#suggestion {
+    background-color: #F0F0F0;
+}
+
+/* Standard project box content setup */
+
+div.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+div.img-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+img.mockup {
+    position: absolute;
+}
+/* Standard browser window */
+@media (min-width: 48em) {
+    /* Stanny box setup */
+
+    #stanny div.text-box {
+        float: left;
+        width: 35%;
+        padding: 70px 20px 55px 20px;
+        transform: translate(20%);
+    }
+
+    #stanny div.text-box h1 {
+        font-size: 5em;
+    }
+
+    #stanny div.img-box {
+        height: 90%;
+        right: -35%;
+        position: absolute;
+        top: 50%;
+        transform: translate(15%, -50%);
+    }
+
+    #stanny img.mockup {
+        max-height: 100%;
+    }
+
+    /* Kyber box setup */
+
+    #kyber div.text-box {
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    #kyber div.img-box {
+        position: absolute;
+        width: 110%;
+        top: 7.5%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #kyber img.mockup {
+        max-width: 100%;
+    }
+
+    /* Slight Work box setup */
+
+    #slight-work div.text-box {
+        width: 45%;
+        padding: 0 10px;
+        float: left;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    #slight-work div.img-box{
+        height: 100%;
+        width: auto;
+        left: 47.5%;
+        top: 10px;
+    }
+
+    #slight-work img.mockup{
+        max-height: 100%;
+    }
+
+    /* Lighter box setup */
+
+    #lighter div.text-box{
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    #lighter div.img-box {
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-52%);
+        min-height: 300px;
+    }
+
+    #lighter img.mockup{
+        max-width: 100%;
+    }
+
+    /* Matter box setup */
+
+    #matter div.text-box {
+        position: absolute;
+        bottom: 0;
+        padding: 0 10px;
+    }
+
+    #matter div.img-box {
+        position: absolute;
+        top: 7%;
+        height: 70%;
+        left: 30%;
+    }
+
+    #matter img.mockup {
+        max-height: 100%;
+    }
+
+    /* Movie Master box setup */
+
+    #movie-master div.text-box {
+        margin-top: 90px;
+        padding: 0 15px;
+        width: 50%;
+    }
+
+    #movie-master p {
+        width: 90%
+    }
+
+    #movie-master div.img-box {
+        position: absolute;
+        bottom: -20%;
+        right: -15%;
+        width: 95%;
+    }
+
+    #movie-master img.mockup {
+        max-height: 100%;
+    }
+
+    /* Hydratr box setup */
+
+    #hydratr div.text-box{
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    #hydratr div.img-box {
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #hydratr img.mockup {
+        max-width: 100%;
+    }
+
+    /* Suggestion box setup */
+
+    #suggestion div.text-box {
+        padding: 10% 20px;
+    }
+
+    #suggestion div.text-box h1 {
+        color: black;
+    }
+
+    #suggestion div.text-box p {
+        color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+    }
+
+    #suggestion div.img-box {
+        width: 110%;
+        bottom: 0;
+    }
+
+    #suggestion img.mockup {
+        max-width: 100%;
+    }
+}
+
+/* Inside constriction view changes */
+
+@media (max-width: 1000px) {
+    div.project-full {
+        height: 50vw;
+    }
+
+    div.split {
+        height: 75vw;
+    }
+
+    #suggestion div.text-box h1 {
+        font-size: 2.5em;
+    }
+
+    #stanny div.text-box h1 {
+        font-size: 8vw;
+    }
+    
+    h1 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+}
+
+/* Mobile window view changes */
+
+@media (max-width: 48em) {
+    /* Font adjustments */
+    #stanny div.text-box h1, h1 {
+        font-size: 5.5vw;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    p {
+        margin-top: -5px;
+        font-size: 2.5vw;
+    }
+
+    /* Box adjustments */
+
+    div.split {
+        height: 100vw;
+        padding-bottom: 20px;
+    }
+
+    div.project {
+        width: 100%;
+        height: 50%;
+    }
+
+    div.project-full {
+        height: 50vw;
+        width: auto;
+    }
+
+    /* Margin adjustments */
+
+    #kyber, #lighter, #hydratr {
+        margin-bottom: 10px;
+    }
+
+    #slight-work, #matter, #suggestion {
+        margin-top: 10px;
+    }
+
+    /* Icon adjustments */
+
+    .project-icon{
+        width: 30px;
+        height: 30px;
+        padding: 4vw;
+    }
+
+    #kyber .project-icon, #lighter .project-icon, #movie-master .project-icon {
+        position: relative;
+        float: right;
+    }
+
+    /* General adjustments */
+
+    div.img-box {
+        bottom: 0;
+    }
+
+    div.text-box {
+        height: fit-content;
+        width: 45%;
+        padding: 0 10px;
+    }
+
+    div.text-box h1 {
+        padding-top: 50px;
+    }
+
+    /* Floating adjustements */
+    #stanny div.text-box, #slight-work div.text-box, #matter div.text-box, #hydratr div.text-box, #kyber div.img-box, #lighter div.img-box, #movie-master div.img-box {
+        float: left;
+    }
+
+    #stanny div.img-box, #slight-work div.img-box, #matter div.img-box, #hydratr div.img-box, #kyber div.text-box, #lighter div.text-box, #movie-master div.text-box{
+        float: right;
+    }
+
+    #slight-work div.img-box, #matter div.img-box, #hydratr div.img-box {
+        right: 10px;
+    }
+
+    /* Project mockup adjustments */
+
+    div.img-box {
+        position: absolute;
+        top: 5%;
+        width: 45%;
+    }
+
+    img.mockup {
+        max-width: 100%;
+    }
+    
+    #stanny div.img-box {
+        height: 80%;
+        max-width: 100%;
+        top: 12%;
+        right: 0;
+    }
+
+    #stanny img.mockup {
+        max-height: 100%;
+        max-width: none;
+    }
+
+    #kyber img.mockup {
+        content: url("/assets/kyber/alternate-1.png");
+    }
+
+    #matter img.mockup {
+        content: url("/assets/matter/alternate-1.png");
+    }
+
+    #movie-master div.img-box {
+        top: 15%;
+    }
+
+    #movie-master img.mockup {
+        content: url("/assets/movie-master/section-2.png");
+    }
+
+    #hydratr div.img-box {
+        top: 10%;
+    }
+
+    #hydratr img.mockup {
+        content: url("/assets/hydratr/alternate-2.png");
+    }
+
+    /* Suggestion box updates */
+
+    #suggestion div.text-box h1 {
+        font-size: 6vw;
+        padding-top: 0;
+        color: black;
+    }
+
+    #suggestion div.text-box p {
+        margin-top: 0;
+        color: rgba(0, 0, 0, 0.5);
+        width: 80%;
+    }
+
+    #suggestion div.img-box {
+        width: 75%;
+        bottom: 0;
+        right: -7.5%;
+        top: 15%;
+        content: url("/assets/icons-2.png");
+    }
+}
+
+.container a, .container h1, .container p, .container img.mockup, .container div.project {
+    opacity: 0;
+
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.container h1, .container p, .container img.mockup {
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+.container div.project {
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+}
+
+.container h1 {
+    animation-delay: 0.15s;
+}
+
+.container p {
+    animation-delay: 0.3s;
+}
+
+.container img.mockup {
+    animation-delay: 0.5s;
+}

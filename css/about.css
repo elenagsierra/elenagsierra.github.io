@@ -1,0 +1,221 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+div.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 2.75em;
+}
+
+h2 {
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    padding-right: auto;
+    padding-left: auto;
+    max-width: 750px;
+}
+
+.link-box .fa {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+
+    border: 3px solid #DE4545;
+    border-radius: 40px;
+    color: #DE4545;
+}
+
+.link-box .fa:hover {
+    background: #DE4545;
+    color: #FFFFFF;
+}
+
+.round {
+    top: auto;
+}
+
+@media (min-height: 50em) {
+    div.container{
+        overflow-y: hidden;
+    }
+}
+
+@media (max-height: 50em) {
+    div.container{
+        overflow-y: scroll;
+    }
+}
+
+@media (max-aspect-ratio: 5/4), (max-width: 80em){
+    #profile {
+        right: 0%;
+    }
+}
+
+@media (min-width: 55em) {
+
+    #profile {
+        content: url("/assets/profile-1.png");
+    }
+
+    div.left {
+        float: left;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+    div.right {
+        float: right;
+        margin-left: 50px;
+        margin-right: 25px;
+
+        max-width: 500px;
+    }
+
+    img, video {
+        top: 10%;
+        max-height: 90%;
+        display: block;
+        position: absolute;
+    }
+
+    div.split {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        min-height: 55em;
+        height: 100%;
+    }
+
+    div.left, div.right {
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+
+    div.text-box {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 55em) {
+    #profile {
+        content: url("/assets/profile-2.png");
+        /* min-width: 100vw; */
+    }
+
+    img, video {
+        min-height: 300px;
+        max-height: 25vw;
+    }
+
+    div.container {
+        position: relative;
+    }
+
+    div.split {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    div.left {
+        width: 100vw;
+    }
+
+    div.left, div.right {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-box {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 5em;
+    }
+}
+
+.container h1, .container h2, .container p, .container img, .container .link-box {
+    opacity: 0;
+
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+.container h1, .container h2, .container p, .container .link-box {
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+.container img {
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+}
+
+.container h2 {
+    animation-delay: 0.25s;
+}
+
+.container p {
+    animation-delay: 0.4s;
+}
+
+.container .link-box {
+    animation-delay: 0.55s;
+}
+
+.container img {
+    animation-delay: 0.35s;
+}
+
+@media (max-width: 55em) {
+    .container img {
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+
+        animation-delay: 0s;
+    }
+
+    .container h1 {
+        animation-delay: 0.15s;
+    }
+
+    .container h2 {
+        animation-delay: 0.25s;
+    }
+    
+    .container p {
+        animation-delay: 0.4s;
+    }
+    
+    .container a {
+        animation-delay: 0.55s;
+    }
+}

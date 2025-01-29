@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="css/eq.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/artifact.css">
+</head>
+<body ondragstart="return false">
+  <div class="header">
+  {% include test_nsc_header.html %}
+  </div>
+  {{ content }}
+  <div class="center">
+  <img src="artifacts/eq.png" alt="equity" class="profile-photo">
+</div>
+<div class="container">
+<footer>
+    <ul>
+        <li><a href="index.html">Back to Main Website</a></li>
+        <li>© 2025 Elena Sierra</li>
+    </ul>
+</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
