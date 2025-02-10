@@ -2840,9 +2840,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #e7e7e7;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #a0a0a0;
 		overflow: hidden;
 		padding: 0;
 	}
