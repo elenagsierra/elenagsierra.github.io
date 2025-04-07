@@ -101,7 +101,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #555;
 		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -1709,8 +1709,8 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 4.5em);
-		width: 45em;
+		max-width: calc(100% - 4.5rem);
+		width: 65rem;
 	}
 
 		.container.xsmall {
@@ -1748,7 +1748,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.container {
-				max-width: calc(100% - 3.375em);
+				max-width: calc(100% - 3.375rem);
 			}
 
 		}
@@ -2668,7 +2668,7 @@ input, select, textarea {
 			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 48%;
+			width: 39%;
 		}
 
 			.features article .image img {
@@ -2679,7 +2679,7 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 60%;
 		}
 
 			.features article .inner > :last-child {
@@ -2878,7 +2878,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 		/* Header */
@@ -2916,7 +2916,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 		/* Header */
@@ -2948,7 +2948,7 @@ input, select, textarea {
 			}
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		/* Image */
@@ -3114,7 +3114,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
