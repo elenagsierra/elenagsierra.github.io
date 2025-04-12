@@ -1181,6 +1181,12 @@ input, select, textarea {
 				.row > .col-12-medium {
 					width: 100%;
 				}
+				
+				.row > .col-12-medium .image.fit img {
+					max-width: 70% !important; /* Reduce image size */
+					display: block;
+					margin: 0 auto;           /* Center the image */
+				}
 
 				.row > .off-12-medium {
 					margin-left: 100%;
