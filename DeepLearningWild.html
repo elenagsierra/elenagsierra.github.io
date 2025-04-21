@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="title" content="CS 103ACE">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Deep Learning in the Wild</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+
+        <base href="https://web.stanford.edu/class/archive/cs/cs103ace/cs103ace.1252/" target="_blank" />
+	</head>
+	<body>
+        <h1 id="title" style="margin: 5px 55px;">Deep Learning in the Wild:</h1>
+        <h1 style="margin: 5px 55px;">Tackling Bias and Under-Labeling in Volunteer-Collected Biodiversity Data</h1>
+        <h2 style="margin: 5px 55px;">Abstract</h2>
+        <p style="margin: 5px 55px;">
+            Volunteer-collected biodiversity datasets offer immense potential for large-scale species monitoring, 
+            but pose significant challenges for machine learning due to uneven sampling, biases, and 
+            a high proportion of unlabeled or inconsistently labeled data. 
+            Despite their scale, such real-world data defy the i.i.d. assumptions that underlie many computer vision benchmarks, 
+            raising important questions about how to train reliable models for ecological applications. 
+            In this work, we present two complementary experiments using DivShift-North American West Coast (DivShift-NAWC), 
+            our curated dataset of almost 7.5 million volunteer-collected plant images from iNaturalist. 
+            The dataset includes both labeled and unlabeled images, and is partitioned across five expert-verified axes of bias: 
+            spatial, temporal, taxonomic, observer quality, and sociopolitical. 
+            Our first experiment introduces Diversity Shift (DivShift), a framework for quantifying the effects of 
+            domain-specific distribution shifts on machine learning model performance. 
+            We compare species recognition performance across these bias partitions using a diverse variety of 
+            species- and ecosystem-focused accuracy metrics. 
+            We observe that these biases confound model performance less than expected from the underlying label distribution shift, and 
+            that more data leads to better model performance but the magnitude of these improvements are bias-specific. 
+            These findings imply that while the structure within natural world images provides generalization improvements for 
+            biodiversity monitoring tasks, the biases present in volunteer-collected biodiversity data can affect model performance; 
+            thus these models should be used with caution in downstream biodiversity monitoring tasks. 
+            Building on this, our second experiment introduces ContextPair, a method to optimally select positive and negative pairs for 
+            a contrastive plant-classification model using domain-informed context in a volunteer-collected plant image dataset. 
+            To optimize the selection of positive and negative pairs for contrastive learning, 
+            ContextPair runs an iterative weight-tuning algorithm on a labeled validation split, 
+            learning feature weights that maximize species overlap in positive pair selection and 
+            minimize species overlap in negative pair selection. 
+            This allows selected pairs to reflect meaningful ecological relationships for the task of species classification, 
+            improving representation learning in biodiversity datasets and downstream model performance. 
+            Together, these experiments highlight two key insights. 
+            First, bias-aware evaluation is essential when training models on real-world ecological data—performance may appear 
+            strong overall but falter in under-sampled or marginalized regions of the data space. 
+            Second, self-supervised and contrastive methods can benefit from domain-specific knowledge, 
+            especially when label scarcity is a limiting factor.
+        </p>
+
+    </body>
+</html>
